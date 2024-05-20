@@ -1,0 +1,22 @@
+/* Adicione as regras CSS para ocultar os ícones */
+.event-container {
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .delete-icon,
+  .edit-icon {
+    opacity: 0;
+    transition: opacity 0.3s;
+    margin-left: 5px; /* Adicione margem à esquerda */
+    z-index: 1; /* Garante que os ícones apareçam sobre o evento */
+  }
+  
+  .event-container:hover .delete-icon,
+  .event-container:hover .edit-icon {
+    opacity: 1;
+  }
+  
