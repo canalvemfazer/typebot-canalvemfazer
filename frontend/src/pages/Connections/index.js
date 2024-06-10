@@ -336,7 +336,7 @@ const Connections = () => {
 						
 					>
 						<WhatsApp style={{ marginRight: "5px"}} />
-						<span>{i18n.t("connections.buttons.support")}</span>
+						<span>{i18n.t("Suporte")}</span>
 					</Button>
 				</MainHeaderButtonsWrapper>
 			</MainHeader>
