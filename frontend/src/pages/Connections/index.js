@@ -329,6 +329,15 @@ const Connections = () => {
 							</Button>
 						)}
 					/>
+						<Button
+						variant="contained"
+						color="primary"
+						onClick={() => openInNewTab(`https://wa.me/${process.env.REACT_APP_NUMBER_SUPPORT}`)}
+						
+					>
+						<WhatsApp style={{ marginRight: "5px"}} />
+						<span>{i18n.t("connections.buttons.support")}</span>
+					</Button>
 				</MainHeaderButtonsWrapper>
 			</MainHeader>
 			<Paper className={classes.mainPaper} variant="outlined">
