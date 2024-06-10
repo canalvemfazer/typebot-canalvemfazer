@@ -280,7 +280,7 @@ export default function ChatPopover() {
                 </ListItem>
               ))}
             {isArray(chats) && chats.length === 0 && (
-              <ListItemText primary={i18n.t("mainDrawer.appBar.notRegister")} />
+              <ListItemText primary={i18n.t("Notificação")} />
             )}
           </List>
         </Paper>
